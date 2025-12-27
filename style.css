@@ -1,0 +1,144 @@
+* {
+    margin: 0; /* внешние отступы */  
+    padding: 0; /* внутренние отступы */
+    box-sizing: border-box; /* границы и внутренние отступы теперь не увеличивают размер элементов */
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030; 
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+}
+
+header {
+    background-color: brown;
+    padding: 20px 0 20px;
+}
+
+header span {
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-section {
+    background-color: antiquewhite;
+    padding: 60px 0 60px;
+    height: 100vh;
+}
+
+.main-title {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 0px 20px;
+
+}
+
+.main-text {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.main-image {
+    width: 715px;
+    border: 2px solid rgba(83, 84, 97, 1)
+}
+
+
+.about-section {
+    background-color: aliceblue;
+    padding: 50px 0px 50px;
+}
+
+select {
+    width: 80px; /* ширина выпадающего списка */
+ 
+    /* стили для текста выпадающего списка*/
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(20, 20, 20, 0.8);
+ 
+    border: none; /* убираем границу */
+    appearance: none; /* убираем стрелку, которую браузер отображает по умолчанию */
+ 
+     /* устанавливаем свою стрелку */
+    background-image: url("./assets/images/arrow-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: right 0 top 50%;
+    padding: 5px 0 5px;
+}
+
+.section-title {
+    padding: 0px 0px 20px;
+    font-weight: bold;
+}
+
+.frameworks-list {
+    list-style-image: url("./assets/images/arrow-bottom.svg");
+    padding-left: 20px
+}
+
+.books-list {
+    font-weight: 400;
+    padding-left: 20px
+}
+
+.label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.text-field {
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgba(17, 17, 17, 0.205);
+    width: 400px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.btn {
+    border: none;
+    background-color: blue;
+    border-radius:5px;
+    padding: 10px 25px 10px;
+}
+
+.line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+}
+
+th, td {
+    padding: 20px;
+}  
+
+footer {
+    background-color:aqua;
+    padding: 0px 20px 0px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.footer-link {
+    color: #6c757d;
+}
