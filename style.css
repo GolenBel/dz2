@@ -7,20 +7,21 @@
 body {
     font-family: "Inter", sans-serif;
     color: #303030; 
-    font-weight: 700;
+    font-weight: 400;
     font-style: Bold;
     font-size: 48px;
 }
 
 header {
-    background-color: brown;
+    background-color: rgb(41, 101, 241)
     padding: 20px 0 20px;
 }
 
 header span {
-    color: azure;
-    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
     font-weight: bold;
+    font-weight: 700;
 }
 
 .main-section {
@@ -51,14 +52,14 @@ header span {
 }
 
 .main-image {
-    width: 715px;
+    max-width: 715px;
     border: 2px solid rgba(83, 84, 97, 1)
 }
 
 
 .about-section {
     background-color: aliceblue;
-    padding: 50px 0px 50px;
+    padding: 100px 0px 50px;
 }
 
 select {
@@ -82,7 +83,7 @@ select {
 }
 
 .section-title {
-    padding: 0px 0px 20px;
+    padding: 25px;
     font-weight: bold;
 }
 
@@ -93,7 +94,8 @@ select {
 
 .books-list {
     font-weight: 400;
-    padding-left: 20px
+    padding-left: 0px 20px;
+    font-size: 16px;
 }
 
 .label {
@@ -113,14 +115,15 @@ select {
 
 .btn {
     border: none;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     border-radius:5px;
     padding: 10px 25px 10px;
 }
 
 .line {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 14px;
 }
 
 table {
@@ -129,12 +132,12 @@ table {
 }
 
 th, td {
-    padding: 20px;
+    padding: 12px 15px;
 }  
 
 footer {
     background-color:aqua;
-    padding: 0px 20px 0px;
+    padding: 0px 26px 0px;
     text-decoration: none;
     font-family: Arial, sans-serif;
 }
