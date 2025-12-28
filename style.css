@@ -9,7 +9,7 @@ body {
     color: #303030; 
     font-weight: 400;
     font-style: Bold;
-    font-size: 48px;
+    font-size: 16px;
 }
 
 header {
@@ -59,7 +59,8 @@ header span {
 
 .about-section {
     background-color: aliceblue;
-    padding: 100px 0px 50px;
+    padding: 100px 0px;
+    margin-bottom: 25px;
 }
 
 select {
@@ -89,12 +90,12 @@ select {
 
 .frameworks-list {
     list-style-image: url("./assets/images/arrow-bottom.svg");
-    padding-left: 20px
+    padding-left: 0px 20px;
 }
 
 .books-list {
     font-weight: 400;
-    padding-left: 0px 20px;
+    padding: 0px 20px;
     font-size: 16px;
 }
 
@@ -115,7 +116,7 @@ select {
 
 .btn {
     border: none;
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     border-radius:5px;
     padding: 10px 25px 10px;
 }
@@ -137,7 +138,7 @@ th, td {
 
 footer {
     background-color:aqua;
-    padding: 0px 26px 0px;
+    padding: 26px 0px;
     text-decoration: none;
     font-family: Arial, sans-serif;
 }
