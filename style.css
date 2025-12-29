@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: rgb(41, 101, 241)
+    background-color: rgb(41, 101, 241);
     padding: 20px 0 20px;
 }
 
@@ -84,13 +84,13 @@ select {
 }
 
 .section-title {
-    padding: 25px;
+    margin-bottom: 25px;
     font-weight: bold;
 }
 
 .frameworks-list {
     list-style-image: url("./assets/images/arrow-bottom.svg");
-    padding-left: 0px 20px;
+    padding: 0px 20px;
 }
 
 .books-list {
@@ -130,6 +130,7 @@ select {
 table {
     border-style: groove;
     border-color: rgb(0, 0, 0);
+    font-size: 14px;
 }
 
 th, td {
@@ -145,4 +146,5 @@ footer {
 
 .footer-link {
     color: #6c757d;
+    font-size: 14px;
 }
